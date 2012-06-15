@@ -1,0 +1,5 @@
+Tests will only run after an instance of mongoDB is installed and running on the system. Also the /bin/importProjects.pl script needs to run once to import the test data from /bin/testRecsAnon.csv into the mongoDB (thereby creating the database).
+
+Tests will change those test datasets during the testing process, add one record and delete another.
+
+Use db.dropDatabase() on the mongoShell to clear the database of this test data after everything runs and before actual data is imported.

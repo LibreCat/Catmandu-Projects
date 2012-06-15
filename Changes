@@ -1,0 +1,6 @@
+Revision history for Perl extension Catmandu::Projects.
+
+0.01  Fri Jun 15 14:21:38 2012
+	- original version; created by h2xs 1.23 with options
+		-AXc -n Catmandu::Projects
+

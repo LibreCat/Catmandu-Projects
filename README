@@ -1,0 +1,32 @@
+Catmandu-Projects version 0.01
+==============================
+
+Before installing this module, an instance of mongoDB needs to be running on the system.
+If tests are to be run, the script /bin/importProjects.pl needs to be run with the test data in /bin/testRecsAnon.csv.
+This script will create a new mongoDB called Projects and import five test records that will be altered by the module tests during the testing process. (To delete those test records and start with a fresh DB, use the db.dropDatabase() function on the mongo shell.))
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+MongoDB as found on CPAN
+Catmandu::Store::MongoDB as included in the lib directory (changes have been made that might not have been pulled to the original yet)
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2012 by P. Kohorst
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.14.2 or,
+at your option, any later version of Perl 5 you may have available.
+
+

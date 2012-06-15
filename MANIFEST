@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Catmandu-Projects.t
+lib/Catmandu/Projects.pm
