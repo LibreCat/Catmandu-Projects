@@ -1,6 +1,5 @@
 #!/usr/bin/perl -w
 
-use lib qw(../../lib/extension ../../lib/default);
 use lib ("/home/bup/perl5/lib/perl5");
 
 use Data::Dumper;
